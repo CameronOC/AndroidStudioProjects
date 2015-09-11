@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.owner.candidvoter.PartyInformation"
+    android:background="#5E5E5E"
+    android:id="@+id/layout">
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Democratic Party"
+        android:id="@+id/democrats"
+        android:layout_gravity="center_vertical"
+        android:background="#142172"
+        android:layout_alignTop="@+id/republicans"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/DCandidates"
+        android:layout_alignEnd="@+id/DCandidates" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Republican Party"
+        android:id="@+id/republicans"
+        android:layout_gravity="center_vertical"
+        android:background="#8F0C0C"
+        android:layout_marginTop="112dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/RCandidates"
+        android:layout_alignEnd="@+id/RCandidates"
+        android:layout_toEndOf="@+id/democrats"
+        android:layout_alignLeft="@+id/RCandidates"
+        android:layout_alignStart="@+id/RCandidates" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Major Parties"
+        android:id="@+id/textView"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="D. Candidates"
+        android:id="@+id/DCandidates"
+        android:textColor="#142172"
+        android:background="#6F7ABF"
+        android:layout_alignTop="@+id/RCandidates"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="R. Candidates"
+        android:id="@+id/RCandidates"
+        android:background="#AB6116"
+        android:textColor="#8F0C0C"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
