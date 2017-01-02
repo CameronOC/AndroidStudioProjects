@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#006699"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainScreen"><![CDATA[    ]]>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Parties &amp; Candidates"
+        android:id="@+id/partyInformationButton"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#5E5E5E"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:id="@+id/AboutUs_botton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/partyInformationButton"
+        android:layout_alignEnd="@+id/partyInformationButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:backgroundTint="#5E5E5E" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Where to Vote!"
+        android:id="@+id/votingButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/partyInformationButton"
+        android:layout_alignEnd="@+id/partyInformationButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:backgroundTint="#5E5E5E" />
+
+
+</RelativeLayout>
